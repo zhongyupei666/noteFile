@@ -220,15 +220,56 @@ PS E:\NoteFile> git commit -m "add readme.md"
 [leftBranch e46d7d1] add readme.md
  2 files changed, 93 insertions(+), 2 deletions(-)
  create mode 100644 readme.bat
+ PS E:\NoteFile> git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+PS E:\NoteFile> git branch
+  leftBranch
+* main
+PS E:\NoteFile> ls
+
+
+    目录: E:\NoteFile
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2024/1/21     13:52                github学习
+d-----         2024/1/20     23:11                git学习
+d-----         2024/1/20     22:08                windows
+d-----         2023/10/4     21:39                技术随笔笔记
+d-----         2023/9/23     20:07                编程语言笔记汇总
+d-----         2023/9/10     17:59                网络安全
+d-----         2023/9/10     18:21                网络工程笔记
+
+
+PS E:\NoteFile>
 ```
 
 
 
+当如果在使用checkout进行切换的时候，出现这样的报错的时候：
+
+`error: Your local changes to the following files would be overwritten by checkout:`
+
+我们只需要在重新的提交一下仓库即可。
 
 
 
+==切回到上一个分支的操作的快捷使用方法：==
+
+`git checkout -`
 
 
+
+#### 合并操作：
+
+当我们的分支任务完成结束后，我们可以和主干分支进行合并；
+
+【流程】
+
+先将所有的内容提交到分支上，然后切换回主分支
 
 
 

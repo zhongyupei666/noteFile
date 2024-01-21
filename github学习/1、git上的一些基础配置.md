@@ -215,6 +215,11 @@ Untracked files:
         readme.bat
 
 no changes added to commit (use "git add" and/or "git commit -a")
+PS E:\NoteFile> git add .
+PS E:\NoteFile> git commit -m "add readme.md"
+[leftBranch e46d7d1] add readme.md
+ 2 files changed, 93 insertions(+), 2 deletions(-)
+ create mode 100644 readme.bat
 ```
 
 

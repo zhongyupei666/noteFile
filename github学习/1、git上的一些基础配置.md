@@ -72,7 +72,7 @@ git config --global color.ui auto
 
 
 
-### 2.1.1、`git init`的基本操作：
+#### 2.1.1、`git init`的基本操作：
 
 > 如果初始化成功，执行了`git init`命令的目录下就会生成`．git`目录。这个`．git`目录里存储着管理当前目录内容所需的仓库数据。
 
@@ -80,7 +80,7 @@ git config --global color.ui auto
 
 
 
-### 2.1.2、`git commit` 的操作指令：
+#### 2.1.2、`git commit` 的操作指令：
 
 基本的使用：`git commit -m "Description"`
 
@@ -133,7 +133,99 @@ commit 8ff9f4e14395dfec51a9458ec10976776e0cb8f1 (HEAD -> main, origin/main)
 Author: JiaFeng <2449859587@qq.com>
 
     2024_01_21
+    
 ```
+
+
+
+`git diff` 指令：`git diff`命令可以查看工作树、暂存区、最新提交之间的差别。
+
+
+
+### 2.2、`git` 中的分支操作：
+
+显示所有的分支，并展示当前所在的分支的操作：
+
+`git branch`
+
+
+
+以当前的分支为基础，创建新的分支，并执行切换的操作：
+
+`git checkout -b`
+
+
+
+当然，如我们所想见到的那样，我们也可以使用`git branch + BranchName`来创建一个分支；
+
+```bat
+PS E:\NoteFile> git branch
+* main
+PS E:\NoteFile> git branch leftBranch
+PS E:\NoteFile> git branch
+  leftBranch
+* main
+PS E:\NoteFile> git checkout leftBranch
+Switched to branch 'leftBranch'
+M       "github\345\255\246\344\271\240/1\343\200\201git\344\270\212\347\232\204\344\270\200\344\272\233\345\237\272\347\241\200\351\205\215\347\275\256.md"
+PS E:\NoteFile> git branch
+* leftBranch
+  main
+PS E:\NoteFile>
+```
+
+在这个状态下像正常开发那样修改代码、执行`git add`命令并进行提交的话，代码就会提交至feature-A分支
+
+#### 实验:
+
+【实验内容】：
+
+下面我们在分支`leftBranch`中新加一个文件`readme.md`的时候再切换回`master`分支，查看会发生什么情况；
+
+【实验步骤】：
+
+```bat
+PS E:\NoteFile> ls
+
+
+    目录: E:\NoteFile
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2024/1/21     13:46                github学习
+d-----         2024/1/20     23:11                git学习
+d-----         2024/1/20     22:08                windows
+d-----         2023/10/4     21:39                技术随笔笔记
+d-----         2023/9/23     20:07                编程语言笔记汇总
+d-----         2023/9/10     17:59                网络安全
+d-----         2023/9/10     18:21                网络工程笔记
+-a----         2024/1/21     13:47              0 readme.bat
+
+
+PS E:\NoteFile> git status
+On branch leftBranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   "github\345\255\246\344\271\240/1\343\200\201git\344\270\212\347\232\204\344\270\200\344\272\233\345\237\272\347\241\200\351\205\215\347\275\256.md"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.bat
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+
+
+
+
+
+
+
+
+
 
 
 

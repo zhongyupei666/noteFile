@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T08:44:28.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" version="23.1.7" etag="_9t27VZ8-gUaLdDPjUlq" type="github">
-  <diagram name="第 1 页" id="88i6rP2Y_9D4RBPQC3g2">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-03-07T08:45:55.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="OuRZwnzpY8ZEjEVm1t53" version="23.1.7" type="github">
+  <diagram name="对象、方法和局部变量" id="88i6rP2Y_9D4RBPQC3g2">
+    <mxGraphModel dx="918" dy="421" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

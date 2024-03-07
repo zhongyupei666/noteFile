@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T08:45:55.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="OuRZwnzpY8ZEjEVm1t53" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T09:23:49.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="zOIEKluMG4vcGt44ZqtG" version="23.1.7" type="github">
   <diagram name="对象、方法和局部变量" id="88i6rP2Y_9D4RBPQC3g2">
-    <mxGraphModel dx="918" dy="421" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-1" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 17px;&quot;&gt;对象&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-864" y="-382" width="105" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-3" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-759" y="-350" as="sourcePoint" />
+            <mxPoint x="-588" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-4" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 16px;&quot;&gt;发送消息&lt;br&gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;rounded=0;glass=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" connectable="0" vertex="1" parent="wJ3-EqiSnO-9U8Ft86HB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-7" value="待执行的方法的方法名" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-589" y="-370" width="132" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;对象的相关操作：&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Ruby中对象的操作往往是通过 对 能够表示他们的变量来进行操作的；&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-294" width="281" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-9" value="对象的行为" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-864" y="-126" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-11" style="edgeStyle=none;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wJ3-EqiSnO-9U8Ft86HB-10" target="wJ3-EqiSnO-9U8Ft86HB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-10" value="对象所在的类" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-574" y="-177" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-13" style="edgeStyle=none;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wJ3-EqiSnO-9U8Ft86HB-12" target="wJ3-EqiSnO-9U8Ft86HB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-12" value="通过对象自己学习" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-574" y="-69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wJ3-EqiSnO-9U8Ft86HB-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-439" y="-54" as="sourcePoint" />
+            <mxPoint x="-348" y="-37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-16" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 15px;&quot;&gt;def obj.functionName&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;comments&lt;br&gt;end&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-348" y="-77" width="198" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-17" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Lucida Console&quot;&gt;obj = Object.new&lt;/font&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;br&gt;创建对象的语法；&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-348" y="-182" width="198" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="wJ3-EqiSnO-9U8Ft86HB-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-454" y="-142.5" as="sourcePoint" />
+            <mxPoint x="-348" y="-140.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

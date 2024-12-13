@@ -56,10 +56,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WPtumlQOFKL4dUi6FcxR" name="Web请求的时序">
-    <mxGraphModel dx="705" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1345" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-1" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223" y="63" as="sourcePoint" />
+            <mxPoint x="229" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="65" as="sourcePoint" />
+            <mxPoint x="71" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="71" as="sourcePoint" />
+            <mxPoint x="-64" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="63" as="sourcePoint" />
+            <mxPoint x="551" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="65" as="sourcePoint" />
+            <mxPoint x="393" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -56,38 +56,156 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WPtumlQOFKL4dUi6FcxR" name="Web请求的时序">
-    <mxGraphModel dx="1345" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VUll9-CIxZD6Bt2jkPFb-1" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="223" y="63" as="sourcePoint" />
-            <mxPoint x="229" y="445" as="targetPoint" />
+            <mxPoint x="235" y="721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VUll9-CIxZD6Bt2jkPFb-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="65" y="65" as="sourcePoint" />
-            <mxPoint x="71" y="447" as="targetPoint" />
+            <mxPoint x="76" y="723" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VUll9-CIxZD6Bt2jkPFb-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="71" as="sourcePoint" />
-            <mxPoint x="-64" y="453" as="targetPoint" />
+            <mxPoint x="-60" y="723" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VUll9-CIxZD6Bt2jkPFb-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545" y="63" as="sourcePoint" />
-            <mxPoint x="551" y="445" as="targetPoint" />
+            <mxPoint x="554" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VUll9-CIxZD6Bt2jkPFb-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="387" y="65" as="sourcePoint" />
-            <mxPoint x="393" y="447" as="targetPoint" />
+            <mxPoint x="399" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-6" value="浏览器搜索：http://sohu.com/news.html" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="158" y="22" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="109" as="sourcePoint" />
+            <mxPoint x="222" y="171" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="105" />
+              <mxPoint x="291" y="173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-8" value="解析主机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="295" y="125" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-9" value="hosts文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="27" y="30" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223" y="195" as="sourcePoint" />
+            <mxPoint x="70" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-11" value="查询域名和ip" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="98" y="160" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="251" as="sourcePoint" />
+            <mxPoint x="-62" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-13" value="如果查询不到，去外网DNS服务器上进行查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="18" y="279" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229" y="339" as="sourcePoint" />
+            <mxPoint x="389" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-15" value="DNS服务器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-121" y="30" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-16" value="apache服务器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="327" y="22" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-17" value="发送http请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="257" y="306" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="393" y="375" as="sourcePoint" />
+            <mxPoint x="391" y="437" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="464" y="371" />
+              <mxPoint x="460" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-19" value="解析主机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="462" y="388" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="467" as="sourcePoint" />
+            <mxPoint x="392" y="529" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="463" />
+              <mxPoint x="461" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-21" value="站点域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="466" y="482" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397" y="549" as="sourcePoint" />
+            <mxPoint x="395" y="611" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="468" y="545" />
+              <mxPoint x="464" y="613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-23" value="资源名称" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="466" y="562" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="642" as="sourcePoint" />
+            <mxPoint x="551" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-26" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="VUll9-CIxZD6Bt2jkPFb-25">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-27" value="取出资源文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="VUll9-CIxZD6Bt2jkPFb-25">
+          <mxGeometry x="0.039" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="687" as="sourcePoint" />
+            <mxPoint x="233" y="687" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUll9-CIxZD6Bt2jkPFb-29" value="将取出的结果返回" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="VUll9-CIxZD6Bt2jkPFb-28">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

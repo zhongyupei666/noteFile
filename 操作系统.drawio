@@ -4,82 +4,141 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kZI3DuICkW-kZriLSzTb-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;1、&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;进程的状态与转换&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;1、&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;进程的状态与转换&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1975" y="-636" width="313" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-2" value="&lt;div&gt;进程的状态：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-2" value="&lt;div&gt;进程的状态：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1903" y="-530" width="82" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-1814" y="-580" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-4" value="1、创建态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-4" value="1、创建态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1787" y="-585" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-5" value="2、就绪态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-5" value="2、就绪态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1787" y="-557" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-6" value="3、运行态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-6" value="3、运行态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1787" y="-527" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-7" value="4、阻塞态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-7" value="4、阻塞态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1787" y="-504" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-8" value="5、终止态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1787" y="-479" width="60" height="30" as="geometry" />
+        <mxCell id="kZI3DuICkW-kZriLSzTb-8" value="5、终止态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1787" y="-481" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-9" value="进程的状态转换" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-9" value="进程的状态转换：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1917.5" y="-409" width="111" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-10" value="创建态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-10" value="创建态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1877" y="-337" width="56" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-11" value="就绪态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-11" value="就绪态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1703" y="-337" width="56" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-12" value="运行态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-12" value="运行态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1533" y="-337" width="56" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-13" value="终止态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-13" value="终止态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1373" y="-337" width="56" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-14" value="阻塞态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-14" value="阻塞态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1615" y="-247" width="56" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-15" value="操作系统创建PCB" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-15" value="操作系统创建PCB" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.025" y="13" width="80" relative="1" as="geometry">
             <mxPoint x="-1807" y="-311" as="sourcePoint" />
             <mxPoint x="-1717" y="-311" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-16" value="CPU选择一个就绪态，&lt;br&gt;让它在处理机上运行" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0444" y="66" width="80" relative="1" as="geometry">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-16" value="CPU选择一个就绪态，&lt;br&gt;让它在处理机上运行" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0667" y="29" width="80" relative="1" as="geometry">
             <mxPoint x="-1635" y="-309.5" as="sourcePoint" />
             <mxPoint x="-1545" y="-309.5" as="targetPoint" />
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-17" value="操作系统，调用exit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-17" value="操作系统，调用exit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.1081" y="23" width="80" relative="1" as="geometry">
             <mxPoint x="-1456" y="-309.5" as="sourcePoint" />
             <mxPoint x="-1382" y="-309.5" as="targetPoint" />
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-1" y="97" width="80" relative="1" as="geometry">
             <mxPoint x="-1525" y="-280" as="sourcePoint" />
             <mxPoint x="-1558" y="-248" as="targetPoint" />
             <mxPoint x="12" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZI3DuICkW-kZriLSzTb-19" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kZI3DuICkW-kZriLSzTb-19" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.7479" y="69" width="80" relative="1" as="geometry">
             <mxPoint x="-1616" y="-249" as="sourcePoint" />
             <mxPoint x="-1649" y="-283" as="targetPoint" />
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-1" value="进程的组织：" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1902" y="-177" width="80" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1851" y="-137" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-3" value="链式组织方式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1829" y="-141" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-4" value="索引组织方式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1829" y="-47" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1557" y="-124.5" as="sourcePoint" />
+            <mxPoint x="-1511" y="-124.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1560" y="-77.5" as="sourcePoint" />
+            <mxPoint x="-1514" y="-77.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1565" y="-30.5" as="sourcePoint" />
+            <mxPoint x="-1519" y="-30.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-8" value="执行指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1626" y="-141" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-9" value="就绪指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1626" y="-92" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-10" value="阻塞指针" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1626" y="-43" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1705" y="-77.5" as="sourcePoint" />
+            <mxPoint x="-1640" y="-77.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-12" value="利用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCcfDugHxCa6ZiFP5NxC-11">
+          <mxGeometry x="0.6" y="-7" relative="1" as="geometry">
+            <mxPoint x="-28" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-13" value="都是指向PCB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1501" y="-141" width="110" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-14" value="链式指向PCB链，索引指向索引表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1493" y="-97" width="110" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-15" value="链式指向PCB链，索引指向索引表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1493" y="-42" width="110" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

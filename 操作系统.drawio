@@ -140,7 +140,7 @@
         <mxCell id="iCcfDugHxCa6ZiFP5NxC-15" value="链式指向PCB链，索引指向索引表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1493" y="-42" width="110" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="iCcfDugHxCa6ZiFP5NxC-16" value="在PCB中，存在一个变量，state 用来标记当前的状态；" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iCcfDugHxCa6ZiFP5NxC-16" value="&lt;b style=&quot;color: generic-light-dark(rgb(220, 39, 28), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;&quot;&gt;在PCB中，存在一个变量，state 用来标记当前的状态；&lt;/span&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF4D23;" vertex="1" parent="1">
           <mxGeometry x="-1683" y="-590.5" width="346" height="41" as="geometry" />
         </mxCell>
       </root>

@@ -91,11 +91,20 @@
         <mxCell id="qvQlTLng0JgVEMNS3Hl5-28" value="虚拟机的虚拟网卡（此处为 bridge101）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="351" y="209" width="120" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="qvQlTLng0JgVEMNS3Hl5-29" value="kali" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="626" y="64" width="60" height="30" as="geometry" />
+        <mxCell id="qvQlTLng0JgVEMNS3Hl5-29" value="kali&lt;br&gt;10.37.129.3/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="626" y="64" width="87" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="qvQlTLng0JgVEMNS3Hl5-30" value="windows11" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qvQlTLng0JgVEMNS3Hl5-30" value="windows11&lt;br&gt;10.37.129.4/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="626" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvQlTLng0JgVEMNS3Hl5-31" value="10.37.129.100/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="164" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvQlTLng0JgVEMNS3Hl5-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="739" y="51" width="20" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="qvQlTLng0JgVEMNS3Hl5-34" value="两台设备的网关地址为：10.37.129.100/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="146" width="136" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

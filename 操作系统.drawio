@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.1" pages="2">
   <diagram name="进程与线程" id="H9pHaS5DysN6NacVv_u8">
     <mxGraphModel dx="2857" dy="1349" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,6 +143,14 @@
         <mxCell id="iCcfDugHxCa6ZiFP5NxC-16" value="&lt;b style=&quot;color: generic-light-dark(rgb(220, 39, 28), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;&quot;&gt;在PCB中，存在一个变量，state 用来标记当前的状态；&lt;/span&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF4D23;" vertex="1" parent="1">
           <mxGeometry x="-1683" y="-590.5" width="346" height="41" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XqEs1_PxP0e2Pg_hKG95" name="IGMP协议">
+    <mxGraphModel dx="913" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

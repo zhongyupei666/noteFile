@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.8" pages="4">
   <diagram name="第 1 页" id="cVrXeqFg22WJOeHS7Tfx">
     <mxGraphModel dx="1124" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1078,6 +1078,87 @@
         </mxCell>
         <mxCell id="jsAMpH_tJxuldN8q7QiN-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;复用功能输入&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="141" x="280" y="1118" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TnhXHsqlVVmrtBGZumFZ" name="第 4 页">
+    <mxGraphModel dx="1775" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ibDeUrimp_-FlrBdngHM-15" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="413" width="794" x="-353" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-14" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="257" width="542" x="303" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-1" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="4" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-2" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.sun_workstation;" value="" vertex="1">
+          <mxGeometry height="67" width="85" x="-132" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-3" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.file_server;" value="" vertex="1">
+          <mxGeometry height="57.99999999999999" width="43" x="66" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-4" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.fileserver;" value="" vertex="1">
+          <mxGeometry height="62" width="43" x="256" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-5" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;" value="" vertex="1">
+          <mxGeometry height="62" width="43" x="417" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-6" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="392" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-7" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.unity_server;" value="" vertex="1">
+          <mxGeometry height="69" width="50" x="726" y="523.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-8" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-2" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBorderColor=none;" target="ibDeUrimp_-FlrBdngHM-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="269" y="418" as="sourcePoint" />
+            <mxPoint x="319" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-9" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-3" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ibDeUrimp_-FlrBdngHM-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269" y="418" as="sourcePoint" />
+            <mxPoint x="319" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-10" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="ibDeUrimp_-FlrBdngHM-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="295" as="sourcePoint" />
+            <mxPoint x="250" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-11" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ibDeUrimp_-FlrBdngHM-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269" y="418" as="sourcePoint" />
+            <mxPoint x="319" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-12" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-6" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="ibDeUrimp_-FlrBdngHM-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269" y="418" as="sourcePoint" />
+            <mxPoint x="319" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-13" edge="1" parent="1" source="ibDeUrimp_-FlrBdngHM-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ibDeUrimp_-FlrBdngHM-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269" y="418" as="sourcePoint" />
+            <mxPoint x="319" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Net 1" vertex="1">
+          <mxGeometry height="30" width="60" x="14" y="407" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Net 2" vertex="1">
+          <mxGeometry height="30" width="60" x="271" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ibDeUrimp_-FlrBdngHM-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="iptables 做了一个策略，使得做了一个NAT的功能；" vertex="1">
+          <mxGeometry height="63" width="269" x="472" y="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
